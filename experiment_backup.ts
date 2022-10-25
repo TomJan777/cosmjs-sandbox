@@ -1,6 +1,8 @@
 import { IndexedTx, StargateClient } from "@cosmjs/stargate"
 import { MsgSend } from "cosmjs-types/cosmos/bank/v1beta1/tx"
 import { Tx } from "cosmjs-types/cosmos/tx/v1beta1/tx"
+import { IndexedTx, SigningStargateClient, StargateClient } from "@cosmjs/stargate"
+
 
 const rpc = "https://rpc.sentry-01.theta-testnet.polypore.xyz"
 
